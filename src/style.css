@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-h1 {
+  @apply text-2xl font-bold uppercase;
+}
+
+.custom-h2 {
+  @apply text-xl font-semibold uppercase;
+}
