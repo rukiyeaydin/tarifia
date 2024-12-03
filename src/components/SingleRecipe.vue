@@ -51,9 +51,7 @@ export default {
       <div v-else class="w-full md:w-1/2">
         <div class="flex flex-col items-center justify-center">
           <h1 class="custom-h1 mt-10">{{ recipe.title || 'Tarif Başlığı' }}</h1>
-          <router-link to="/profile">
-            <p class="font-semibold italic mt-5 mb-2">By: {{ recipe.username || 'Yazar' }}</p>
-          </router-link>
+          <p class="font-semibold italic mt-5 mb-2">By: {{ recipe.username || 'Yazar' }}</p>
   
           <img :src="chicken" :alt="recipe.title" class="my-10 rounded-2xl w-10/12 h-10/12 sm:h-96 sm:w-96">
   
