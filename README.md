@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Recipe Sharing App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A basic recipe-sharing application built with **Vue 3**, **Vite**, **TailwindCSS**, and **Firebase**. This app allows users to share their favorite recipes with others.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## Technologies Used
+- **Vue 3**: Frontend framework.
+- **Vite**: Development and build tool for Vue.
+- **TailwindCSS**: Utility-first CSS framework.
+- **Firebase**: Backend for authentication and database.
+
+---
+
+## Live Demo
+Check out the live application: [Recipe Sharing App](https://tarifia.netlify.app/)
